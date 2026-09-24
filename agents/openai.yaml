@@ -1,0 +1,7 @@
+interface:
+  display_name: "MSGA"
+  short_description: "核查销售文档的概念标准、流程路径、隐含依赖与求助支持，给出完整诊断和具体改稿建议"
+  default_prompt: "请使用 $msga 审阅这份面向销售的文档，按四项标准输出完整诊断、优先级和可直接采用的修改建议。"
+
+policy:
+  allow_implicit_invocation: true
